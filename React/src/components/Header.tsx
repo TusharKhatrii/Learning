@@ -1,0 +1,16 @@
+import { Button } from './Button';
+export function Header() {
+  return <header className="flex items-center justify-between">
+    <div className="flex flex-col gap-1 ">
+      <h1 text-3xl font-bold>Habit Tracker</h1>
+      <span className="text-zinc-400 t c"> 1 / 1 done today</span>
+    </div>
+    <div className="flex flex-col gap-1 items-end">
+      <span className="text-zinc-400 text-sm">June 15 - June 21 </span>
+      <div className="flex items-center gap-3">
+        <Button> Prev </Button>
+        <Button> Next </Button>
+      </div>
+    </div>
+  </header>
+}
