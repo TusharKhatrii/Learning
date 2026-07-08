@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Runtime files
+.env
+.env.*.local
+.local
+pm2.pid
+pm2.log
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# VS Code workspace storage
+.history/
+
+# TypeScript
+*.tsbuildinfo
+
+
+# Optional: log of npm or yarn errors
+npm-debug.log*
